@@ -26,12 +26,12 @@
             location.href = "https://forms.gle/5Bmqu2ZeVwHq113V7";
         }
         
-        //else if(ans >= 20 && ans < 30){
-        //    location.href = "https://forms.gle/mU1MQQhfxfPNaASUA";
-       // }
-        //else {
-         // location.href = "https://forms.gle/JVM2DU3uLtZgGCTo8";
-       // }
+        else if(ans >= 20 && ans < 30){
+            location.href = "https://forms.gle/mU1MQQhfxfPNaASUA";
+        }
+        else {
+          location.href = "https://forms.gle/JVM2DU3uLtZgGCTo8";
+        }
         
     </script>
 </body>
