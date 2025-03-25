@@ -1,0 +1,38 @@
+<!DOCTYPE html>  
+<html lang="en">
+<head>
+    <title>Redirect</title>
+</head>
+<body>
+    <script>
+        // declare the variable
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * max);
+        }
+        let targetUrlList = [
+            "https://forms.gle/HHjLwHYneQizjHoz6",
+            "https://forms.gle/5Bmqu2ZeVwHq113V7",
+            "https://forms.gle/mU1MQQhfxfPNaASUA",
+            "https://forms.gle/JVM2DU3uLtZgGCTo8"
+        ];
+
+        let ans = getRandomInt(20);
+        // console.log(ans);
+
+        if(ans < 10){
+            location.href = "https://forms.gle/HHjLwHYneQizjHoz6";
+        } 
+        else if(ans >= 10 && ans < 20){
+            location.href = "https://forms.gle/5Bmqu2ZeVwHq113V7";
+        }
+        
+        //else if(ans >= 20 && ans < 30){
+        //    location.href = "https://forms.gle/mU1MQQhfxfPNaASUA";
+       // }
+        //else {
+         // location.href = "https://forms.gle/JVM2DU3uLtZgGCTo8";
+       // }
+        
+    </script>
+</body>
+</html>
