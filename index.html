@@ -10,22 +10,26 @@
             return Math.floor(Math.random() * max);
         }
         let targetUrlList = [
-            "https://forms.gle/HHjLwHYneQizjHoz6",
+            //"https://forms.gle/HHjLwHYneQizjHoz6",
             "https://forms.gle/5Bmqu2ZeVwHq113V7",
             "https://forms.gle/mU1MQQhfxfPNaASUA",
         ];
 
-        let ans = getRandomInt(30);
+        let ans = getRandomInt(20);
          //console.log(ans);
 
-        if(ans < 10){
-            location.href = "https://forms.gle/HHjLwHYneQizjHoz6";
-        } 
-        else if(ans >= 10 && ans < 20){
-            location.href = "https://forms.gle/5Bmqu2ZeVwHq113V7";
-        }
+        // if(ans < 10){
+        //     location.href = "https://forms.gle/HHjLwHYneQizjHoz6";
+        // } 
 
-        else if(ans >= 20 && ans < 30){
+            if(ans < 10){
+        location.href = "https://forms.gle/5Bmqu2ZeVwHq113V7";
+        } 
+        // else if(ans >= 10 && ans < 20){
+        //     location.href = "https://forms.gle/5Bmqu2ZeVwHq113V7";
+        // }
+
+        else if(ans >= 10 && ans < 20){
             location.href = "https://forms.gle/mU1MQQhfxfPNaASUA";
         }
         
